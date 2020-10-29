@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_nosotros"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:title="@string/tittle_nosotros" />
+    <item
+        android:id="@+id/navigation_galeria"
+        android:icon="@drawable/ic_galeria_black24dp"
+        android:title="@string/title_galeria" />
+    <item
+        android:id="@+id/navigation_inicio"
+        android:icon="@drawable/ic_inicio_black_24dp"
+        android:title="@string/title_inicio" />
+    <item
+        android:id="@+id/navigation_reservas"
+        android:icon="@drawable/ic_reservas_black_24dp"
+        android:title="@string/title_reservas" />
+
+    <item
+        android:id="@+id/navigation_conectarse"
+        android:icon="@drawable/ic_conectarse_black_24dp"
+        android:title="@string/title_conectarse" />
+
+</menu>

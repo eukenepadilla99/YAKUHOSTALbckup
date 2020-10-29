@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_inicio">
+
+    <fragment
+        android:id="@+id/navigation_nosotros"
+        android:name="com.yakuhostal.trial.ui.nosotros.NosotrosFragment"
+        android:label="@string/tituloApp"
+        tools:layout="@layout/fragment_nosotros" />
+
+    <fragment
+        android:id="@+id/navigation_galeria"
+        android:name="com.yakuhostal.trial.ui.galeria.GaleriaFragment"
+        android:label="@string/tituloApp"
+        tools:layout="@layout/fragment_galeria" />
+
+    <fragment
+        android:id="@+id/navigation_inicio"
+        android:name="com.yakuhostal.trial.ui.inicio.InicioFragment"
+        android:label="@string/tituloApp"
+        tools:layout="@layout/fragment_inicio" />
+
+    <fragment
+        android:id="@+id/navigation_reservas"
+        android:name="com.yakuhostal.trial.ui.Reservas.ReservasFragment"
+        android:label="@string/tituloApp"
+        tools:layout="@layout/fragment_reservas" />
+
+    <fragment
+        android:id="@+id/navigation_conectarse"
+        android:name="com.yakuhostal.trial.ui.conectarse.ConectarseFragment"
+        android:label="@string/tituloApp"
+        tools:layout="@layout/fragment_conectarse" />
+
+</navigation>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ui.nosotros.NosotrosFragment">
+
+
+    <TextView
+        android:id="@+id/tvUbicacion"
+        android:layout_width="276dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="108dp"
+        android:text="@string/tvUbicacion"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="@color/texto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgMapaCasa"
+        android:layout_width="289dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="40dp"
+        android:contentDescription="@string/mapaDesc"
+        android:src="@mipmap/mapa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvUbicacion" />
+
+    <TextView
+        android:id="@+id/tvRRSS"
+        android:layout_width="224dp"
+        android:layout_height="38dp"
+        android:textColor="@color/texto"
+        android:layout_marginTop="44dp"
+        android:text="@string/rrss"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgMapaCasa" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="264dp"
+        android:layout_height="75dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvRRSS">
+
+        <ImageView
+            android:id="@+id/imgVFacebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:contentDescription="@string/logoFacebook"
+            android:src="@mipmap/icons8_facebook" />
+
+        <ImageView
+            android:id="@+id/imgVInstagram"
+            android:layout_width="46dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="15dp"
+            android:contentDescription="@string/logoInstagram"
+            android:src="@mipmap/icons8_instagram" />
+
+        <ImageView
+            android:id="@+id/imgVTwitter"
+            android:layout_width="52dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="15dp"
+            android:contentDescription="@string/logoTwitter"
+            android:src="@mipmap/icons8_twitter" />
+
+        <ImageView
+            android:id="@+id/imgVYoutube"
+            android:layout_width="51dp"
+            android:layout_height="46dp"
+            android:layout_marginLeft="15dp"
+            android:contentDescription="@string/logoYoutube"
+            android:src="@mipmap/icons8_youtube" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

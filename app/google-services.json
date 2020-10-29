@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1005114264178",
+    "firebase_url": "https://yaku-hostal.firebaseio.com",
+    "project_id": "yaku-hostal",
+    "storage_bucket": "yaku-hostal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1005114264178:android:852b10e4eeddcae8d850eb",
+        "android_client_info": {
+          "package_name": "com.yakuhostal.trial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1005114264178-8h6ip3t07q05jpnhv25ebhouiktcsl7m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yakuhostal.trial",
+            "certificate_hash": "c3eac55924f3487ad4fe735614c31900858b8a84"
+          }
+        },
+        {
+          "client_id": "1005114264178-uh4srr7mhhj03ulj23fbvf0484n7a4pc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-KE_mwx2DvqS925prpbpuAN-W49nWO3E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1005114264178-uh4srr7mhhj03ulj23fbvf0484n7a4pc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

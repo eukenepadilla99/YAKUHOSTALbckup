@@ -1,0 +1,73 @@
+<resources>
+
+
+    <string name="app_name">Yaku Hostal</string>
+
+    <!--|Strings menu navegable inferior|-->
+    <string name="title_inicio">Inicio</string>
+    <string name="title_galeria">Galeria</string>
+    <string name="title_reservas">Reservas</string>
+    <string name="title_conectarse">Conectarse</string>
+    <string name="tittle_nosotros">Nosotros</string>
+
+
+    <!--|Strings TOAST|-->
+    <string name="textoUsuarioNoLogeadoToast">Para poder reservar tiene que estar logeado</string>
+    <string name="reservaExitosaToast">Su Reserva ha sido realizada con exito</string>
+    <string name="salidaAnteriorAEntradaToast">La fecha de salida no puede ser anterior a la fecha de entrada</string>
+    <string name="lunesCerradoToast">Los lunes está cerrado</string>
+    <string name="seleccioneFechaPosteriorAHoy">Debe seleccionar una fecha posterior a la actual</string>
+    <string name="cargandoReservas">Sus reservas estan cargando…</string>
+    <string name="autentificando">Autentificando…</string>
+    <string name="rellenaCampos">Por favor, rellena todos los campos</string>
+
+
+    <!--|Strings necesarios para la el fragment de reservas|-->
+    <string name="nombre">Nombre:</string>
+    <string name="apellido">Apellidos</string>
+    <string name="telef">Telefono:</string>
+    <string name="gente">Nº Personas:</string>
+    <string name="correo">Email:</string>
+    <string name="fechaEntrada">Fecha Entrada:</string>
+    <string name="fechaSalida">Fecha Salida:</string>
+    <string name="formato_fecha">dd/mm/yyyy</string>
+    <string name="reservar">Reservar</string>
+    <string name="cabeceraReservas">RESERVA YA EL DESAYUNO ESTÁ INCLUDIO</string>
+
+
+    <!--|Strings del fragment Inicio|-->
+    <string name="logo">Esto es el logo</string>
+    <string name="inicio">Yaku Hostal es un hostal Low-Cost,pensado para el publico turistico enfocado en losdeportes acuaticos.</string>
+
+    <!--|Strings para el boton ajustes de arriba a la derecha|-->
+    <string name="oscuro">Modo Oscuro</string>
+    <string name="claro">Modo Claro</string>
+    <string name="idioma">Cambio de Idioma</string>
+    <string name="euskera0">Euskera</string>
+    <string name="ingles">Ingles</string>
+    <string name="castellano">Castellano</string>
+
+
+    <!--|Strings del fragment Nosotros|-->
+    <string name="tvUbicacion">UBICACION</string>
+    <string name="mapaDesc">Mapa</string>
+    <string name="hostalDesc">Hostal</string>
+    <string name="logoFacebook">logoFacebook</string>
+    <string name="logoTwitter">logoTwitter</string>
+    <string name="logoInstagram">logoInstagram</string>
+    <string name="logoYoutube">logoYoutube</string>
+    <string name="rrss">¡Contactanos en las redes sociales!</string>
+
+
+    <!--|Strings necesarios para el fragment de iniciar sesion|-->
+    <string name="sign_out">sign out</string>
+    <string name="signed_out">signed out</string>
+    <string name="google_title_text">google title text</string>
+    <string name="disconnect">disconnect</string>
+    <string name="server_client_id">1005114264178-j38lvmp4vpqgok31i4l8t740fifephh2.apps.googleusercontent.com</string>
+    <string name="tvMostrarUsuario"/>
+    <string name="tvFechaSalidaConectarseTitulo">Fecha Salida</string>
+    <string name="tvFechaEntradaConectarseTitulo">Fecha Entrada</string>
+    <string name="tvNumeroPersonasConectarseTitulo">Num Personas</string>
+   
+</resources>
